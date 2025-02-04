@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                git branch: 'main', url: 'https://github.com/omminikishore/Test_Work.git/'
+                git branch: 'master', url: 'https://github.com/omminikishore/Test_Work.git/'
             }
         }
         stage('Running Script') {
